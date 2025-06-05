@@ -190,11 +190,11 @@ const AddConsultancy = () => {
             // For now, let's assume 'specific' text field covers details for 'additional' if checked.
             specificLearningDisabilitiesSupport: therapiesSeeking.additional, // Example mapping
             specificTherapiesDetails: therapiesSeeking.specific, // Was 'specific'
-
+            studentEmail:"info@gmail.com",
             attendsSchoolElsewhere: school.attends,
             schoolElsewhereDetails: school.attends ? school.details : '',
-            "sclassName": "66ffd857dadb69ffd460c81e",
-            "school": "66ffd767e8b05e8d754eb570",
+            "sclassName": "6841d62692080ba4520a3a66",
+            "school": "684166055d02df2c8772e55a",
             parentName: parent.name, // This should be parent.name from form
             // fatherName: parent.name, // If parent.name is specifically father's name, otherwise distinguish
             parentsContact: parent.parentsContact,
@@ -244,7 +244,8 @@ const AddConsultancy = () => {
                 setShowPopup(true);
             }
         } catch (error) {
-            setMessage("Form submission failed: " + (error.response?.data?.message || error.message || "Network error."));
+            debugger
+            setMessage("Server Error: " + (error.response?.data?.message +" Server" || error.message +" Exception" || "Network error."));
             setIsSuccess(false);
             setShowPopup(true);
         } finally {

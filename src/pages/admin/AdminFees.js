@@ -49,7 +49,7 @@ const AdminFees = () => {
     setState(prev => ({ ...prev, loading: true, error: '', studentData: [], filteredData: [] }));
     try {
       const payload={
-        id:"66ffd767e8b05e8d754eb570",
+        id:"684166055d02df2c8772e55a",
         name:state.name,
       };
       const response = await axios.post(
@@ -129,7 +129,7 @@ const AdminFees = () => {
 
     const fields = {
       address: selectedStudent.address,
-      adminID: '66ffd767e8b05e8d754eb570',
+      adminID: '684166055d02df2c8772e55a',
       attendance: [],
       days: selectedStudent.days,
       fatherName: selectedStudent.fatherName,
@@ -192,7 +192,7 @@ const AdminFees = () => {
     setState(prev => ({ ...prev, loading: true }));
     try {
       const response = await axios.get(
-        `${process.env.REACT_APP_BASE_URL}/AllStudents/66ffd767e8b05e8d754eb570`
+        `${process.env.REACT_APP_BASE_URL}/AllStudents/684166055d02df2c8772e55a`
       );
       setState(prev => ({
         ...prev,
