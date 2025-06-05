@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/https//xeeshansami.github.io/Adminlogin/static/css/main.dde23f3b.css",
-    "main.js": "/https//xeeshansami.github.io/Adminlogin/static/js/main.8d7a06a1.js",
+    "main.js": "/https//xeeshansami.github.io/Adminlogin/static/js/main.712cb3f2.js",
     "static/js/213.892af230.chunk.js": "/https//xeeshansami.github.io/Adminlogin/static/js/213.892af230.chunk.js",
     "static/js/455.2cd3a5fa.chunk.js": "/https//xeeshansami.github.io/Adminlogin/static/js/455.2cd3a5fa.chunk.js",
     "static/media/bg_mode.png": "/https//xeeshansami.github.io/Adminlogin/static/media/bg_mode.9e486c8438a933f2fbe3.png",
@@ -16,12 +16,12 @@
     "static/media/designlogin.jpg": "/https//xeeshansami.github.io/Adminlogin/static/media/designlogin.3cac939f195a9e698ba4.jpg",
     "index.html": "/https//xeeshansami.github.io/Adminlogin/index.html",
     "main.dde23f3b.css.map": "/https//xeeshansami.github.io/Adminlogin/static/css/main.dde23f3b.css.map",
-    "main.8d7a06a1.js.map": "/https//xeeshansami.github.io/Adminlogin/static/js/main.8d7a06a1.js.map",
+    "main.712cb3f2.js.map": "/https//xeeshansami.github.io/Adminlogin/static/js/main.712cb3f2.js.map",
     "213.892af230.chunk.js.map": "/https//xeeshansami.github.io/Adminlogin/static/js/213.892af230.chunk.js.map",
     "455.2cd3a5fa.chunk.js.map": "/https//xeeshansami.github.io/Adminlogin/static/js/455.2cd3a5fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dde23f3b.css",
-    "static/js/main.8d7a06a1.js"
+    "static/js/main.712cb3f2.js"
   ]
 }
